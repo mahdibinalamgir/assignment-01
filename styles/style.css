@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Merriweather", serif;
+    font-family: "Inter", sans-serif;
+}
+
+
+
+.container {
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+/* header section  */
+
+header {
+    margin: 41px 0px 99px;
+}
+
+header .header-main {
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/banner-image.png');
+    padding: 185px 0;
+    border-radius: 11px;
+}
+
+header .header-main .header-text {
+    width: 82.5%;
+    max-width: 632px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+header .header-main .header-text h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+header .header-main .header-text h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+    /* 131.944% */
+}
+
+/* holiday-deals section  */
+
+#holiday-deals {
+    margin: 99px 0;
+}
+
+#holiday-deals .holiday-deals-main {
+    margin: 0px auto;
+    text-align: center;
+}
+
+#holiday-deals .holiday-deals-main .holiday-deals-text h1 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 39.6px;
+}
+
+#holiday-deals .holiday-deals-main .holiday-deals-text h4 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 13.2px;
+}
+
+#holiday-deals .holiday-deals-main .holiday-deals-text h2 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 39.6px;
+}
+
+/* section midnight */
+#midnight {
+    margin: 99px 0;
+}
+
+#midnight .midnight-main {
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../resources/vectorrr.png);
+    padding: 29px 0;
+    border-radius: 11px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+#midnight .midnight-main .midnight-text {
+    width: 82.5%;
+    max-width: 697px;
+    text-align: left;
+}
+
+#midnight .midnight-main .midnight-text h1 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    /* 137.5% */
+    letter-spacing: 7.04px;
+    margin-bottom: 19.8px;
+}
+
+#midnight .midnight-main .midnight-text p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    margin-bottom: 39.6px;
+}
+
+#midnight .midnight-main .midnight-text h3 {
+    color: #FFF;
+    /* text-align: center; */
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    position: absolute;
+    left: 22.5%;
+}
+
+/* section hotel */
+#hotel{
+    margin: 99px 0;
+}
+
+#hotel .hotel-main{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    padding: 100px 0;
+
+    text-align: center;
+    border-radius: 11px;
+}
+#hotel .hotel-main h3{
+    color: #070211;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px;
+text-transform: capitalize;
+margin-bottom: 39.6px;
+}
+
+#hotel .hotel-main h3 .red{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px; /* 175% */
+text-transform: capitalize;
+}
+button{
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+
+border-radius: 6.6px;
+background: #F00;
+
+display: inline-flex;
+padding: 13.2px 26.4px;
+justify-content: center;
+align-items: center;
+gap: 8.25px;
+border: none;
+}
+
+/* section offer */
+
+/* section sale  */
+
+/* section portfolio */
+
+/* section newsletter */
+
+/* section footer */
