@@ -365,12 +365,13 @@ header .header-main .header-text h1 {
     /* 160% */
 }
 
-#sale .sale-main .sale-img {
-    position: relative;
+
+/* #sale .sale-main .sale-img {
+   
 }
 
-#sale .sale-main .sale-img .sale-box {
-    position: absolute;
+#sale .sale-main .sale-img {
+    position: relative;
     top: 0px;
     left: 0px;
     z-index: 1;
@@ -379,25 +380,25 @@ header .header-main .header-text h1 {
 
 }
 
-#sale .sale-main .sale-img .sale-discount {
-    position: absolute;
-    top: 76.69px;
-    right: 285.92px;
-
+#sale .sale-main .sale-img  {
+    position: relative;
+    top: 0px;
+    left: 0px;
     z-index: 9;
 }
 
-#sale .sale-main .sale-img .sale-girl {
-    position: absolute;
-    top: 0px;
-    left: 891px;
-}
-
-#sale .sale-main .sale-img .sale-line {
-    position: absolute;
-    top: 427.16px;
+#sale .sale-main .sale-img  {
+    position: relative;
+    top: 50px;
     left: 0px;
 }
+
+#sale .sale-main .sale-img  {
+    position: relative;
+    top: 50px;
+    left: 0px;
+} */
+
 
 /* section portfolio */
 #portfolio {
